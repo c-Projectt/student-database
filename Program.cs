@@ -325,6 +325,7 @@ void clear()
     free(p);
     p = store;
  }
+head=NULL;
 gotoxy(20, 17);
 puts("All records are deleted successfully.");
 checkrepeat(25, 19);
